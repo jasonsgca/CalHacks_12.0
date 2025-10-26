@@ -9,4 +9,4 @@ Built with the assistance of Google Gemini AI.
 CalHacks 12.0 submission - Jason Low & Roy Margallo
 
 @sdhu @harshitaarora
-thank you for your time!
+thank you for the opportunity for us to participate in this challenge! 
