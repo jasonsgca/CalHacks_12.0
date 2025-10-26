@@ -5,3 +5,5 @@ Built with React, Firebase, and OpenAI/Gemini APIs, EDEN AI blends emotional int
 By understanding your daily patterns, from work intensity to personal downtime, EDEN AI gently intervenes before burnout strikes. It learns when you’re stretched too thin and recommends restorative escapes that align with your lifestyle. Whether it’s a mountain retreat, a coastal reset, or a mindful city getaway, EDEN AI helps you recharge purposefully and return with clarity, balance, and renewed energy.
 
 Built with the assistance of Google Gemini AI. 
+
+CalHacks 12.0 submission - Jason Low & Roy Margallo
