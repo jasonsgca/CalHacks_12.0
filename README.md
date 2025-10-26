@@ -7,3 +7,6 @@ By understanding your daily patterns, from work intensity to personal downtime, 
 Built with the assistance of Google Gemini AI. 
 
 CalHacks 12.0 submission - Jason Low & Roy Margallo
+
+@sdhu @harshitaarora
+thank you for your time!
