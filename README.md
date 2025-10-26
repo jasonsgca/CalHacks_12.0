@@ -1,3 +1,6 @@
 
-Eden AI is an intelligent wellness platform that helps users detect burnout and discover personalized recovery getaways. Using behavioral and contextual data — like calendar activity, work hours, and lifestyle trends — the AI curates restful trips designed to restore work–life balance. Each recommendation highlights destinations focused on mindfulness, nature, or digital detox experiences, paired with dynamic pricing and wellness tags.
-Built with React, Firebase, and OpenAI/Gemini APIs, Eden AI blends emotional intelligence with modern design to make well-being actionable. It’s not just a travel app — it’s an AI companion that reminds you when to pause, recharge, and rediscover balance.
+EDEN AI is an intelligent wellness platform that helps users detect burnout and discover personalized recovery getaways. Using behavioral and contextual data — like calendar activity, work hours, and lifestyle trends — the AI curates restful trips designed to restore work–life balance. Each recommendation highlights destinations focused on mindfulness, nature, or digital detox experiences, paired with dynamic pricing and wellness tags. 
+Built with React, Firebase, and OpenAI/Gemini APIs, EDEN AI blends emotional intelligence with modern design to make well-being actionable. It’s not just a travel app — it’s an AI companion that reminds you when to pause, recharge, and rediscover balance.
+
+
+Built with the assistance of Google Gemini AI. 
