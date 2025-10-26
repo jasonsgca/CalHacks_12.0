@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eden AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.27.0"
+  }
+}
+</script>
+<style>
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+  .text-glow {
+    text-shadow: 0 0 8px rgba(56, 189, 248, 0.8);
+  }
+  .card-glow:hover {
+    box-shadow: 0 0 15px rgba(56, 189, 248, 0.4), 0 0 5px rgba(56, 189, 248, 0.6);
+  }
+  .leaflet-popup-content-wrapper, .leaflet-popup-tip {
+    background: #0f172a;
+    color: #e2e8f0;
+    border: 1px solid #0ea5e9;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(14, 165, 233, 0.5);
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-in-out forwards;
+  }
+  @keyframes pulse-glow {
+    0%, 100% {
+      box-shadow: 0 0 15px rgba(56, 189, 248, 0.3), 0 0 5px rgba(56, 189, 248, 0.4);
+      border-color: rgba(56, 189, 248, 0.7);
+    }
+    50% {
+      box-shadow: 0 0 25px rgba(56, 189, 248, 0.6), 0 0 10px rgba(56, 189, 248, 0.8);
+      border-color: rgba(56, 189, 248, 1);
+    }
+  }
+  .animate-pulse-glow {
+      animation: pulse-glow 2.5s infinite ease-in-out;
+  }
+</style>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-slate-900 text-slate-200">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
